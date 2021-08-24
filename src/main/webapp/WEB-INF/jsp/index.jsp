@@ -11,12 +11,10 @@
                 	<div class="col-xl-12" style="text-align:center">
 	                    <c:choose>
 	                        <c:when test='${empty(user)}'>
-	                        <p style="font-size: 18px; color: black">Welcome to Fansubber Cloud Drive Uploader</p>
+	                        <p style="font-size: 18px; color: black">Welcome to Cloud Drive Uploader</p>
 				<p style="font-size: 15px; color: black">This site has no registration service or user limits.</p> 
 				<p style="font-size: 15px; color: black">Once you login your Google Drive account you can upload any file from it's URL to your Google Drive Account.</p>
 				<p style="font-size: 15px; color: black">Please Note: This site only supports direct links.</p>
-				<p style="font-size: 15px; color: black">our facebook groupe https://www.facebook.com/groups/2350158528557676/</p>
-				<p style="font-size: 15px; color: black">visite our fansub trakcer here https://fansubclub.blogspot.com/ </p><br>
 				<link rel='stylesheet' href='https://d33wubrfki0l68.cloudfront.net/css/ba9da532d588c7d5b6cc3fbc52d26da7538064c8/style.css'/>
 				<canvas></canvas>
 				<script type='text/javascript' src='https://d33wubrfki0l68.cloudfront.net/js/0332cdafb1bac19d815d6030f67ca9bdb56fe27a/script.js'></script>
@@ -27,7 +25,6 @@
                                  <button id="auth-btn" class="btn btn-link btn-responsive" style="font-size: larger;" onclick="location.href = '${pageContext.request.contextPath}/new_upload'">
                                      Click Here to Upload Files to your Drive.
                                  </button><br>
-					<iframe src="" height="310" width="100%" frameborder="0"></iframe>
 	                        </c:otherwise>
 	                    </c:choose>
                     </div>
