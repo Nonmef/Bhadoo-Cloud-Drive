@@ -27,7 +27,7 @@
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="/css/style.default.css" id="theme-stylesheet">
     <!-- Favicon-->
-    <link rel="shortcut icon" href="//cdn.jsdelivr.net/gh/ParveenBhadooOfficial/BhadooJS@1.0.14/icons/favicon-32x32.png">
+    <link rel="shortcut icon" href="https://i.imgur.com/57ha1Iu.png">
     <!-- Font Awesome CDN-->
     <script src="https://use.fontawesome.com/99347ac47f.js"></script>
     <!-- Font Icons CSS-->
@@ -64,11 +64,10 @@
                 <div class="navbar-holder d-flex align-items-center justify-content-between">
                     <!-- Navbar Header-->
                     <div class="navbar-header">
-                        <!-- Navbar Brand --><a href="/" class="navbar-brand">
-                        <div class="brand-text brand-big hidden-lg-down">
-			<img border="0" alt="Cloud" src="" height="30px">
+                        <!-- Navbar Brand --><a href="index.html" class="navbar-brand">
+                        <div class="brand-text brand-big hidden-lg-down"><span>Save to</span> <strong>Drive</strong>
                         </div>
-                        <div class="brand-text brand-small"><strong>BCD</strong></div>
+                        <div class="brand-text brand-small"><strong>SD</strong></div>
                     </a>
                         <!-- Toggle Button--><a id="toggle-btn" href="#"
                                                 class="menu-btn active"><span></span><span></span><span></span></a>
